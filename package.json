@@ -16,7 +16,7 @@
   {
     "url" : "https://github.com/Wandalen/wImageReaderTga/issues"
   },
-  "dependencies" : { "wTools" : "" },
-  "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0", "wimagereadertga" : "file:." },
+  "dependencies" : { "wTools" : "alpha" },
+  "devDependencies" : { "eslint" : "7.1.0", "wimagereadertga" : "file:.", "wTesting" : "alpha" },
   "keywords" : [ "wTools" ]
 }
