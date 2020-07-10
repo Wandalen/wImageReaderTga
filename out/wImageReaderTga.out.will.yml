@@ -1458,6 +1458,4 @@ module:
       ../.im.will.yml:
         hash: c30c79513c6e4da3280368cd7767148e
         size: 4660
-      wImageReaderTga.out.will.yml:
-        hash: 5baa13fcad078bdf1c7b6cd3e9c76429
-        size: 37011
+      wImageReaderTga.out.will.yml: *ref_0
