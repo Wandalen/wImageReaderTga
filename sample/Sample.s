@@ -3,5 +3,5 @@ let _ = require( 'wimagereadertga' );
 
 /**/
 
-___
+console.log( '___ not implemented ___' );
 
