@@ -6,8 +6,8 @@ consistency:
     hash: 3f28e18ae9401b7c569e0164bd6b7085
     size: 1703
   ../.im.will.yml: &ref_1
-    hash: 9b106a7c762f5677106d36b307439ec1
-    size: 4684
+    hash: 42dd82e49495ca05b92f4227cfbc3e1d
+    size: 4688
 module:
   wImageReaderTga.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wimagereadertga
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wimagereadertga
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wimagereadertga
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: 3f28e18ae9401b7c569e0164bd6b7085
         size: 1703
       ../.im.will.yml:
-        hash: 9b106a7c762f5677106d36b307439ec1
-        size: 4684
+        hash: 42dd82e49495ca05b92f4227cfbc3e1d
+        size: 4688
